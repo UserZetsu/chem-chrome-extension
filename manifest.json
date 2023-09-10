@@ -1,0 +1,15 @@
+{
+    "name": "Chem Finder",
+    "version": "0.1.0",
+    "description": "Extension to make finding chemical information easier.", 
+    "manifest_version": 3, 
+    "author": "Jeff",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Chem Finder"
+    },
+    "permissions": ["https://pubchem.ncbi.nlm.nih.gov/"],
+    "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
